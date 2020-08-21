@@ -1,0 +1,5838 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+.icon-acacia_boat {
+  background-image: url(./sprite.png);
+  background-position: -32px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_button {
+  background-image: url(./sprite.png);
+  background-position: -704px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_door {
+  background-image: url(./sprite.png);
+  background-position: 0px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_fence_gate {
+  background-image: url(./sprite.png);
+  background-position: -32px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_fence {
+  background-image: url(./sprite.png);
+  background-position: -64px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_leaves {
+  background-image: url(./sprite.png);
+  background-position: -64px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_log {
+  background-image: url(./sprite.png);
+  background-position: 0px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_planks {
+  background-image: url(./sprite.png);
+  background-position: -32px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -64px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_sapling {
+  background-image: url(./sprite.png);
+  background-position: -96px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_sign {
+  background-image: url(./sprite.png);
+  background-position: -96px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_slab {
+  background-image: url(./sprite.png);
+  background-position: -96px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_stairs {
+  background-image: url(./sprite.png);
+  background-position: 0px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_trapdoor {
+  background-image: url(./sprite.png);
+  background-position: -32px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-acacia_wood {
+  background-image: url(./sprite.png);
+  background-position: -64px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-activator_rail {
+  background-image: url(./sprite.png);
+  background-position: -96px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-allium {
+  background-image: url(./sprite.png);
+  background-position: -128px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-andesite_slab {
+  background-image: url(./sprite.png);
+  background-position: -128px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-andesite_stairs {
+  background-image: url(./sprite.png);
+  background-position: -128px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-andesite_wall {
+  background-image: url(./sprite.png);
+  background-position: -128px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-andesite {
+  background-image: url(./sprite.png);
+  background-position: 0px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-anvil {
+  background-image: url(./sprite.png);
+  background-position: -32px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-apple {
+  background-image: url(./sprite.png);
+  background-position: -64px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-armor_stand {
+  background-image: url(./sprite.png);
+  background-position: -96px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-arrow {
+  background-image: url(./sprite.png);
+  background-position: -128px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-azure_bluet {
+  background-image: url(./sprite.png);
+  background-position: -160px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-baked_potato {
+  background-image: url(./sprite.png);
+  background-position: -160px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bamboo {
+  background-image: url(./sprite.png);
+  background-position: -160px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-barrel {
+  background-image: url(./sprite.png);
+  background-position: -160px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-barrier {
+  background-image: url(./sprite.png);
+  background-position: -160px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-basalt {
+  background-image: url(./sprite.png);
+  background-position: 0px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bat_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -32px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-beacon {
+  background-image: url(./sprite.png);
+  background-position: -64px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bedrock {
+  background-image: url(./sprite.png);
+  background-position: -96px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bee_nest {
+  background-image: url(./sprite.png);
+  background-position: -128px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bee_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -160px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-beef {
+  background-image: url(./sprite.png);
+  background-position: -192px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-beehive {
+  background-image: url(./sprite.png);
+  background-position: -192px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-beetroot_seeds {
+  background-image: url(./sprite.png);
+  background-position: -192px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-beetroot_soup {
+  background-image: url(./sprite.png);
+  background-position: -192px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-beetroot {
+  background-image: url(./sprite.png);
+  background-position: -192px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bell {
+  background-image: url(./sprite.png);
+  background-position: -192px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_boat {
+  background-image: url(./sprite.png);
+  background-position: 0px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_button {
+  background-image: url(./sprite.png);
+  background-position: -32px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_door {
+  background-image: url(./sprite.png);
+  background-position: -64px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_fence_gate {
+  background-image: url(./sprite.png);
+  background-position: -96px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_fence {
+  background-image: url(./sprite.png);
+  background-position: -128px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_leaves {
+  background-image: url(./sprite.png);
+  background-position: -160px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_log {
+  background-image: url(./sprite.png);
+  background-position: -192px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_planks {
+  background-image: url(./sprite.png);
+  background-position: -224px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -224px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_sapling {
+  background-image: url(./sprite.png);
+  background-position: -224px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_sign {
+  background-image: url(./sprite.png);
+  background-position: -224px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_slab {
+  background-image: url(./sprite.png);
+  background-position: -224px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_stairs {
+  background-image: url(./sprite.png);
+  background-position: -224px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_trapdoor {
+  background-image: url(./sprite.png);
+  background-position: -224px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-birch_wood {
+  background-image: url(./sprite.png);
+  background-position: 0px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_banner {
+  background-image: url(./sprite.png);
+  background-position: -32px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_bed {
+  background-image: url(./sprite.png);
+  background-position: -64px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_carpet {
+  background-image: url(./sprite.png);
+  background-position: -96px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -128px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_concrete {
+  background-image: url(./sprite.png);
+  background-position: -160px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_dye {
+  background-image: url(./sprite.png);
+  background-position: -192px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -224px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -256px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -256px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -256px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -256px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-black_wool {
+  background-image: url(./sprite.png);
+  background-position: -256px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blackstone_slab {
+  background-image: url(./sprite.png);
+  background-position: -256px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blackstone_stairs {
+  background-image: url(./sprite.png);
+  background-position: -256px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blackstone_wall {
+  background-image: url(./sprite.png);
+  background-position: -256px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blackstone {
+  background-image: url(./sprite.png);
+  background-position: 0px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blast_furnace {
+  background-image: url(./sprite.png);
+  background-position: -32px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blaze_powder {
+  background-image: url(./sprite.png);
+  background-position: -64px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blaze_rod {
+  background-image: url(./sprite.png);
+  background-position: -96px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blaze_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -128px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_banner {
+  background-image: url(./sprite.png);
+  background-position: -160px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_bed {
+  background-image: url(./sprite.png);
+  background-position: -192px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_carpet {
+  background-image: url(./sprite.png);
+  background-position: -224px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -256px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_concrete {
+  background-image: url(./sprite.png);
+  background-position: -288px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_dye {
+  background-image: url(./sprite.png);
+  background-position: -288px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -288px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_ice {
+  background-image: url(./sprite.png);
+  background-position: -288px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_orchid {
+  background-image: url(./sprite.png);
+  background-position: -288px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -288px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -288px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -288px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -288px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-blue_wool {
+  background-image: url(./sprite.png);
+  background-position: 0px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bone_block {
+  background-image: url(./sprite.png);
+  background-position: -32px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bone_meal {
+  background-image: url(./sprite.png);
+  background-position: -64px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bone {
+  background-image: url(./sprite.png);
+  background-position: -96px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-book {
+  background-image: url(./sprite.png);
+  background-position: -128px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bookshelf {
+  background-image: url(./sprite.png);
+  background-position: -160px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bow {
+  background-image: url(./sprite.png);
+  background-position: -192px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bowl {
+  background-image: url(./sprite.png);
+  background-position: -224px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brain_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -256px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brain_coral_fan {
+  background-image: url(./sprite.png);
+  background-position: -288px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brain_coral {
+  background-image: url(./sprite.png);
+  background-position: -320px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bread {
+  background-image: url(./sprite.png);
+  background-position: -320px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brewing_stand {
+  background-image: url(./sprite.png);
+  background-position: -320px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brick_slab {
+  background-image: url(./sprite.png);
+  background-position: -320px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brick_stairs {
+  background-image: url(./sprite.png);
+  background-position: -320px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brick_wall {
+  background-image: url(./sprite.png);
+  background-position: -320px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brick {
+  background-image: url(./sprite.png);
+  background-position: -320px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bricks {
+  background-image: url(./sprite.png);
+  background-position: -320px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_banner {
+  background-image: url(./sprite.png);
+  background-position: -320px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_bed {
+  background-image: url(./sprite.png);
+  background-position: -320px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_carpet {
+  background-image: url(./sprite.png);
+  background-position: 0px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -32px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_concrete {
+  background-image: url(./sprite.png);
+  background-position: -64px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_dye {
+  background-image: url(./sprite.png);
+  background-position: -96px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -128px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_mushroom_block {
+  background-image: url(./sprite.png);
+  background-position: -160px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_mushroom {
+  background-image: url(./sprite.png);
+  background-position: -192px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -224px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -256px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -288px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -320px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-brown_wool {
+  background-image: url(./sprite.png);
+  background-position: -352px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bubble_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -352px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bubble_coral_fan {
+  background-image: url(./sprite.png);
+  background-position: -352px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bubble_coral {
+  background-image: url(./sprite.png);
+  background-position: -352px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-bucket {
+  background-image: url(./sprite.png);
+  background-position: -352px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cactus {
+  background-image: url(./sprite.png);
+  background-position: -352px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cake {
+  background-image: url(./sprite.png);
+  background-position: -352px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-campfire {
+  background-image: url(./sprite.png);
+  background-position: -352px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-carrot_on_a_stick {
+  background-image: url(./sprite.png);
+  background-position: -352px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-carrot {
+  background-image: url(./sprite.png);
+  background-position: -352px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cartography_table {
+  background-image: url(./sprite.png);
+  background-position: -352px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-carved_pumpkin {
+  background-image: url(./sprite.png);
+  background-position: 0px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cat_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -32px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cauldron {
+  background-image: url(./sprite.png);
+  background-position: -64px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cave_spider_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -96px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chain_command_block {
+  background-image: url(./sprite.png);
+  background-position: -128px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chain {
+  background-image: url(./sprite.png);
+  background-position: -160px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chainmail_boots {
+  background-image: url(./sprite.png);
+  background-position: -192px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chainmail_chestplate {
+  background-image: url(./sprite.png);
+  background-position: -224px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chainmail_helmet {
+  background-image: url(./sprite.png);
+  background-position: -256px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chainmail_leggings {
+  background-image: url(./sprite.png);
+  background-position: -288px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-charcoal {
+  background-image: url(./sprite.png);
+  background-position: -320px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chest_minecart {
+  background-image: url(./sprite.png);
+  background-position: -352px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chest {
+  background-image: url(./sprite.png);
+  background-position: -384px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chicken_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -384px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chicken {
+  background-image: url(./sprite.png);
+  background-position: -384px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chipped_anvil {
+  background-image: url(./sprite.png);
+  background-position: -384px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chiseled_nether_bricks {
+  background-image: url(./sprite.png);
+  background-position: -384px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chiseled_polished_blackstone {
+  background-image: url(./sprite.png);
+  background-position: -384px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chiseled_quartz_block {
+  background-image: url(./sprite.png);
+  background-position: -384px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chiseled_red_sandstone {
+  background-image: url(./sprite.png);
+  background-position: -384px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chiseled_sandstone {
+  background-image: url(./sprite.png);
+  background-position: -384px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chiseled_stone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -384px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chorus_flower {
+  background-image: url(./sprite.png);
+  background-position: -384px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chorus_fruit {
+  background-image: url(./sprite.png);
+  background-position: -384px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-chorus_plant {
+  background-image: url(./sprite.png);
+  background-position: 0px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-clay_ball {
+  background-image: url(./sprite.png);
+  background-position: -32px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-clay {
+  background-image: url(./sprite.png);
+  background-position: -64px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-clock {
+  background-image: url(./sprite.png);
+  background-position: -96px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-coal_block {
+  background-image: url(./sprite.png);
+  background-position: -128px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-coal_ore {
+  background-image: url(./sprite.png);
+  background-position: -160px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-coal {
+  background-image: url(./sprite.png);
+  background-position: -192px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-coarse_dirt {
+  background-image: url(./sprite.png);
+  background-position: -224px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cobblestone_slab {
+  background-image: url(./sprite.png);
+  background-position: -256px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cobblestone_stairs {
+  background-image: url(./sprite.png);
+  background-position: -288px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cobblestone_wall {
+  background-image: url(./sprite.png);
+  background-position: -320px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cobblestone {
+  background-image: url(./sprite.png);
+  background-position: -352px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cobweb {
+  background-image: url(./sprite.png);
+  background-position: -384px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cocoa_beans {
+  background-image: url(./sprite.png);
+  background-position: -416px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cod_bucket {
+  background-image: url(./sprite.png);
+  background-position: -416px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cod_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -416px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cod {
+  background-image: url(./sprite.png);
+  background-position: -416px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-command_block_minecart {
+  background-image: url(./sprite.png);
+  background-position: -416px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-command_block {
+  background-image: url(./sprite.png);
+  background-position: -416px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-comparator {
+  background-image: url(./sprite.png);
+  background-position: -416px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-compass {
+  background-image: url(./sprite.png);
+  background-position: -416px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-composter {
+  background-image: url(./sprite.png);
+  background-position: -416px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-conduit {
+  background-image: url(./sprite.png);
+  background-position: -416px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cooked_beef {
+  background-image: url(./sprite.png);
+  background-position: -416px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cooked_chicken {
+  background-image: url(./sprite.png);
+  background-position: -416px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cooked_cod {
+  background-image: url(./sprite.png);
+  background-position: -416px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cooked_mutton {
+  background-image: url(./sprite.png);
+  background-position: 0px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cooked_porkchop {
+  background-image: url(./sprite.png);
+  background-position: -32px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cooked_rabbit {
+  background-image: url(./sprite.png);
+  background-position: -64px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cooked_salmon {
+  background-image: url(./sprite.png);
+  background-position: -96px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cookie {
+  background-image: url(./sprite.png);
+  background-position: -128px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cornflower {
+  background-image: url(./sprite.png);
+  background-position: -160px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cow_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -192px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cracked_nether_bricks {
+  background-image: url(./sprite.png);
+  background-position: -224px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cracked_polished_blackstone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -256px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cracked_stone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -288px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crafting_table {
+  background-image: url(./sprite.png);
+  background-position: -320px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-creeper_banner_pattern {
+  background-image: url(./sprite.png);
+  background-position: -352px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-creeper_head {
+  background-image: url(./sprite.png);
+  background-position: -384px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-creeper_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -416px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_button {
+  background-image: url(./sprite.png);
+  background-position: -448px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_door {
+  background-image: url(./sprite.png);
+  background-position: -448px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_fence_gate {
+  background-image: url(./sprite.png);
+  background-position: -448px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_fence {
+  background-image: url(./sprite.png);
+  background-position: -448px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_fungi {
+  background-image: url(./sprite.png);
+  background-position: -448px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_fungus {
+  background-image: url(./sprite.png);
+  background-position: -448px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_hyphae {
+  background-image: url(./sprite.png);
+  background-position: -448px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_nylium {
+  background-image: url(./sprite.png);
+  background-position: -448px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_planks {
+  background-image: url(./sprite.png);
+  background-position: -448px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -448px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_roots {
+  background-image: url(./sprite.png);
+  background-position: -448px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_sign {
+  background-image: url(./sprite.png);
+  background-position: -448px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_slab {
+  background-image: url(./sprite.png);
+  background-position: -448px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_stairs {
+  background-image: url(./sprite.png);
+  background-position: -448px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_stem {
+  background-image: url(./sprite.png);
+  background-position: 0px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crimson_trapdoor {
+  background-image: url(./sprite.png);
+  background-position: -32px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crossbow {
+  background-image: url(./sprite.png);
+  background-position: -64px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-crying_obsidian {
+  background-image: url(./sprite.png);
+  background-position: -96px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cut_red_sandstone_slab {
+  background-image: url(./sprite.png);
+  background-position: -128px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cut_red_sandstone {
+  background-image: url(./sprite.png);
+  background-position: -160px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cut_sandstone_slab {
+  background-image: url(./sprite.png);
+  background-position: -192px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cut_sandstone {
+  background-image: url(./sprite.png);
+  background-position: -224px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_banner {
+  background-image: url(./sprite.png);
+  background-position: -256px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_bed {
+  background-image: url(./sprite.png);
+  background-position: -288px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_carpet {
+  background-image: url(./sprite.png);
+  background-position: -320px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -352px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_concrete {
+  background-image: url(./sprite.png);
+  background-position: -384px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_dye {
+  background-image: url(./sprite.png);
+  background-position: -416px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -448px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -480px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -480px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -480px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -480px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-cyan_wool {
+  background-image: url(./sprite.png);
+  background-position: -480px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-damaged_anvil {
+  background-image: url(./sprite.png);
+  background-position: -480px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dandelion {
+  background-image: url(./sprite.png);
+  background-position: -480px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_boat {
+  background-image: url(./sprite.png);
+  background-position: -480px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_button {
+  background-image: url(./sprite.png);
+  background-position: -480px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_door {
+  background-image: url(./sprite.png);
+  background-position: -480px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_fence_gate {
+  background-image: url(./sprite.png);
+  background-position: -480px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_fence {
+  background-image: url(./sprite.png);
+  background-position: -480px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_leaves {
+  background-image: url(./sprite.png);
+  background-position: -480px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_log {
+  background-image: url(./sprite.png);
+  background-position: -480px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_planks {
+  background-image: url(./sprite.png);
+  background-position: -480px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: 0px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_sapling {
+  background-image: url(./sprite.png);
+  background-position: -32px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_sign {
+  background-image: url(./sprite.png);
+  background-position: -64px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_slab {
+  background-image: url(./sprite.png);
+  background-position: -96px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_stairs {
+  background-image: url(./sprite.png);
+  background-position: -128px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_trapdoor {
+  background-image: url(./sprite.png);
+  background-position: -160px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_oak_wood {
+  background-image: url(./sprite.png);
+  background-position: -192px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_prismarine_slab {
+  background-image: url(./sprite.png);
+  background-position: -224px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_prismarine_stairs {
+  background-image: url(./sprite.png);
+  background-position: -256px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dark_prismarine {
+  background-image: url(./sprite.png);
+  background-position: -288px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-daylight_detector {
+  background-image: url(./sprite.png);
+  background-position: -320px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_brain_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -352px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_brain_coral_fan {
+  background-image: url(./sprite.png);
+  background-position: -384px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_bubble_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -416px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_bubble_coral_fan {
+  background-image: url(./sprite.png);
+  background-position: -448px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_bush {
+  background-image: url(./sprite.png);
+  background-position: -480px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_fire_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -512px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_fire_coral_fan {
+  background-image: url(./sprite.png);
+  background-position: -512px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_horn_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -512px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_horn_coral_fan {
+  background-image: url(./sprite.png);
+  background-position: -512px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dead_tube_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -512px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-debug_stick {
+  background-image: url(./sprite.png);
+  background-position: -512px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-detector_rail {
+  background-image: url(./sprite.png);
+  background-position: -512px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_axe {
+  background-image: url(./sprite.png);
+  background-position: -512px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_block {
+  background-image: url(./sprite.png);
+  background-position: -512px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_boots {
+  background-image: url(./sprite.png);
+  background-position: -512px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_chestplate {
+  background-image: url(./sprite.png);
+  background-position: -512px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_helmet {
+  background-image: url(./sprite.png);
+  background-position: -512px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_hoe {
+  background-image: url(./sprite.png);
+  background-position: -512px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_horse_armor {
+  background-image: url(./sprite.png);
+  background-position: -512px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_leggings {
+  background-image: url(./sprite.png);
+  background-position: -512px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_ore {
+  background-image: url(./sprite.png);
+  background-position: -512px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_pickaxe {
+  background-image: url(./sprite.png);
+  background-position: 0px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_shovel {
+  background-image: url(./sprite.png);
+  background-position: -32px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond_sword {
+  background-image: url(./sprite.png);
+  background-position: -64px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diamond {
+  background-image: url(./sprite.png);
+  background-position: -96px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diorite_slab {
+  background-image: url(./sprite.png);
+  background-position: -128px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diorite_stairs {
+  background-image: url(./sprite.png);
+  background-position: -160px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diorite_wall {
+  background-image: url(./sprite.png);
+  background-position: -192px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-diorite {
+  background-image: url(./sprite.png);
+  background-position: -224px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dirt {
+  background-image: url(./sprite.png);
+  background-position: -256px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dispenser {
+  background-image: url(./sprite.png);
+  background-position: -288px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dolphin_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -320px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-donkey_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -352px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dragon_breath {
+  background-image: url(./sprite.png);
+  background-position: -384px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dragon_egg {
+  background-image: url(./sprite.png);
+  background-position: -416px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dragon_head {
+  background-image: url(./sprite.png);
+  background-position: -448px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dried_kelp_block {
+  background-image: url(./sprite.png);
+  background-position: -480px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dried_kelp {
+  background-image: url(./sprite.png);
+  background-position: -512px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-dropper {
+  background-image: url(./sprite.png);
+  background-position: -544px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-drowned_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -544px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-egg {
+  background-image: url(./sprite.png);
+  background-position: -544px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-elder_guardian_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -544px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-elytra {
+  background-image: url(./sprite.png);
+  background-position: -544px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-emerald_block {
+  background-image: url(./sprite.png);
+  background-position: -544px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-emerald_ore {
+  background-image: url(./sprite.png);
+  background-position: -544px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-emerald {
+  background-image: url(./sprite.png);
+  background-position: -544px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-enchanted_book {
+  background-image: url(./sprite.png);
+  background-position: -544px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-enchanted_golden_apple {
+  background-image: url(./sprite.png);
+  background-position: -544px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-enchanting_table {
+  background-image: url(./sprite.png);
+  background-position: -544px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-end_crystal {
+  background-image: url(./sprite.png);
+  background-position: -992px -224px;
+  width: 32px;
+  height: 31px;
+}
+.icon-end_portal_frame {
+  background-image: url(./sprite.png);
+  background-position: -544px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-end_rod {
+  background-image: url(./sprite.png);
+  background-position: -544px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-end_stone_brick_slab {
+  background-image: url(./sprite.png);
+  background-position: -544px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-end_stone_brick_stairs {
+  background-image: url(./sprite.png);
+  background-position: -544px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-end_stone_brick_wall {
+  background-image: url(./sprite.png);
+  background-position: -544px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-end_stone_bricks {
+  background-image: url(./sprite.png);
+  background-position: 0px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-end_stone {
+  background-image: url(./sprite.png);
+  background-position: -32px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ender_chest {
+  background-image: url(./sprite.png);
+  background-position: -64px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ender_eye {
+  background-image: url(./sprite.png);
+  background-position: -96px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ender_pearl {
+  background-image: url(./sprite.png);
+  background-position: -128px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-enderman_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -160px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-endermite_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -192px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-error {
+  background-image: url(./sprite.png);
+  background-position: -992px -255px;
+  width: 30px;
+  height: 30px;
+}
+.icon-evoker_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -256px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-experience_bottle {
+  background-image: url(./sprite.png);
+  background-position: -288px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-farmland {
+  background-image: url(./sprite.png);
+  background-position: -320px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-feather {
+  background-image: url(./sprite.png);
+  background-position: -352px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-fermented_spider_eye {
+  background-image: url(./sprite.png);
+  background-position: -384px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-fern {
+  background-image: url(./sprite.png);
+  background-position: -416px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-filled_map {
+  background-image: url(./sprite.png);
+  background-position: -448px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-fire_charge {
+  background-image: url(./sprite.png);
+  background-position: -480px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-fire_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -512px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-fire_coral_fan {
+  background-image: url(./sprite.png);
+  background-position: -544px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-fire_coral {
+  background-image: url(./sprite.png);
+  background-position: -576px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-firework_rocket {
+  background-image: url(./sprite.png);
+  background-position: -576px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-firework_star {
+  background-image: url(./sprite.png);
+  background-position: -576px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-fishing_rod {
+  background-image: url(./sprite.png);
+  background-position: -576px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-fletching_table {
+  background-image: url(./sprite.png);
+  background-position: -576px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-flint_and_steel {
+  background-image: url(./sprite.png);
+  background-position: -576px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-flint {
+  background-image: url(./sprite.png);
+  background-position: -576px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-flower_banner_pattern {
+  background-image: url(./sprite.png);
+  background-position: -576px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-flower_pot {
+  background-image: url(./sprite.png);
+  background-position: -576px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-fox_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -576px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-frosted_ice {
+  background-image: url(./sprite.png);
+  background-position: -576px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-furnace_minecart {
+  background-image: url(./sprite.png);
+  background-position: -576px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-furnace {
+  background-image: url(./sprite.png);
+  background-position: -576px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ghast_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -576px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ghast_tear {
+  background-image: url(./sprite.png);
+  background-position: -576px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gilded_blackstone {
+  background-image: url(./sprite.png);
+  background-position: -576px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-glass_bottle {
+  background-image: url(./sprite.png);
+  background-position: -576px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -576px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-glass {
+  background-image: url(./sprite.png);
+  background-position: 0px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-glistering_melon_slice {
+  background-image: url(./sprite.png);
+  background-position: -32px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-globe_banner_pattern {
+  background-image: url(./sprite.png);
+  background-position: -64px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-glowstone_dust {
+  background-image: url(./sprite.png);
+  background-position: -96px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-glowstone {
+  background-image: url(./sprite.png);
+  background-position: -128px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gold_block {
+  background-image: url(./sprite.png);
+  background-position: -160px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gold_ingot {
+  background-image: url(./sprite.png);
+  background-position: -192px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gold_nugget {
+  background-image: url(./sprite.png);
+  background-position: -224px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gold_ore {
+  background-image: url(./sprite.png);
+  background-position: -256px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_apple {
+  background-image: url(./sprite.png);
+  background-position: -288px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_axe {
+  background-image: url(./sprite.png);
+  background-position: -320px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_boots {
+  background-image: url(./sprite.png);
+  background-position: -352px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_carrot {
+  background-image: url(./sprite.png);
+  background-position: -384px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_chestplate {
+  background-image: url(./sprite.png);
+  background-position: -416px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_helmet {
+  background-image: url(./sprite.png);
+  background-position: -448px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_hoe {
+  background-image: url(./sprite.png);
+  background-position: -480px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_horse_armor {
+  background-image: url(./sprite.png);
+  background-position: -512px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_leggings {
+  background-image: url(./sprite.png);
+  background-position: -544px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_pickaxe {
+  background-image: url(./sprite.png);
+  background-position: -576px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_shovel {
+  background-image: url(./sprite.png);
+  background-position: -608px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-golden_sword {
+  background-image: url(./sprite.png);
+  background-position: -608px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-granite_slab {
+  background-image: url(./sprite.png);
+  background-position: -608px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-granite_stairs {
+  background-image: url(./sprite.png);
+  background-position: -608px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-granite_wall {
+  background-image: url(./sprite.png);
+  background-position: -608px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-granite {
+  background-image: url(./sprite.png);
+  background-position: -608px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-grass_block {
+  background-image: url(./sprite.png);
+  background-position: -608px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-grass_path {
+  background-image: url(./sprite.png);
+  background-position: -608px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-grass {
+  background-image: url(./sprite.png);
+  background-position: -608px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gravel {
+  background-image: url(./sprite.png);
+  background-position: -608px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_banner {
+  background-image: url(./sprite.png);
+  background-position: -608px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_bed {
+  background-image: url(./sprite.png);
+  background-position: -608px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_carpet {
+  background-image: url(./sprite.png);
+  background-position: -608px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -608px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_concrete {
+  background-image: url(./sprite.png);
+  background-position: -608px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_dye {
+  background-image: url(./sprite.png);
+  background-position: -608px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -608px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -608px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -608px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: 0px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -32px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gray_wool {
+  background-image: url(./sprite.png);
+  background-position: -64px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_banner {
+  background-image: url(./sprite.png);
+  background-position: -96px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_bed {
+  background-image: url(./sprite.png);
+  background-position: -128px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_carpet {
+  background-image: url(./sprite.png);
+  background-position: -160px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -192px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_concrete {
+  background-image: url(./sprite.png);
+  background-position: -224px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_dye {
+  background-image: url(./sprite.png);
+  background-position: -256px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -288px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -320px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -352px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -384px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -416px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-green_wool {
+  background-image: url(./sprite.png);
+  background-position: -448px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-grindstone {
+  background-image: url(./sprite.png);
+  background-position: -480px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-guardian_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -512px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-gunpowder {
+  background-image: url(./sprite.png);
+  background-position: -544px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-hay_block {
+  background-image: url(./sprite.png);
+  background-position: -576px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-heart_of_the_sea {
+  background-image: url(./sprite.png);
+  background-position: -608px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-heavy_weighted_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -640px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-hoglin_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -640px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-honey_block {
+  background-image: url(./sprite.png);
+  background-position: -640px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-honey_bottle {
+  background-image: url(./sprite.png);
+  background-position: -640px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-honeycomb_block {
+  background-image: url(./sprite.png);
+  background-position: -640px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-honeycomb {
+  background-image: url(./sprite.png);
+  background-position: -640px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-hopper_minecart {
+  background-image: url(./sprite.png);
+  background-position: -640px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-hopper {
+  background-image: url(./sprite.png);
+  background-position: -640px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-horn_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -640px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-horn_coral_fan {
+  background-image: url(./sprite.png);
+  background-position: -640px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-horn_coral {
+  background-image: url(./sprite.png);
+  background-position: -640px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-horse_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -640px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-husk_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -640px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ice {
+  background-image: url(./sprite.png);
+  background-position: -640px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-infested_chiseled_stone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -640px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-infested_cobblestone {
+  background-image: url(./sprite.png);
+  background-position: -640px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-infested_cracked_stone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -640px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-infested_mossy_stone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -640px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-infested_stone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -640px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-infested_stone {
+  background-image: url(./sprite.png);
+  background-position: -640px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ink_sac {
+  background-image: url(./sprite.png);
+  background-position: 0px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_axe {
+  background-image: url(./sprite.png);
+  background-position: -32px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_bars {
+  background-image: url(./sprite.png);
+  background-position: -64px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_block {
+  background-image: url(./sprite.png);
+  background-position: -96px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_boots {
+  background-image: url(./sprite.png);
+  background-position: -128px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_chestplate {
+  background-image: url(./sprite.png);
+  background-position: -160px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_door {
+  background-image: url(./sprite.png);
+  background-position: -192px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_helmet {
+  background-image: url(./sprite.png);
+  background-position: -224px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_hoe {
+  background-image: url(./sprite.png);
+  background-position: -256px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_horse_armor {
+  background-image: url(./sprite.png);
+  background-position: -288px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_ingot {
+  background-image: url(./sprite.png);
+  background-position: -320px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_leggings {
+  background-image: url(./sprite.png);
+  background-position: -352px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_nugget {
+  background-image: url(./sprite.png);
+  background-position: -384px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_ore {
+  background-image: url(./sprite.png);
+  background-position: -416px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_pickaxe {
+  background-image: url(./sprite.png);
+  background-position: -448px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_shovel {
+  background-image: url(./sprite.png);
+  background-position: -480px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_sword {
+  background-image: url(./sprite.png);
+  background-position: -512px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-iron_trapdoor {
+  background-image: url(./sprite.png);
+  background-position: -544px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-item_frame {
+  background-image: url(./sprite.png);
+  background-position: -576px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jack_o_lantern {
+  background-image: url(./sprite.png);
+  background-position: -608px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jigsaw {
+  background-image: url(./sprite.png);
+  background-position: -640px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jukebox {
+  background-image: url(./sprite.png);
+  background-position: -672px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_boat {
+  background-image: url(./sprite.png);
+  background-position: -672px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_button {
+  background-image: url(./sprite.png);
+  background-position: -672px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_door {
+  background-image: url(./sprite.png);
+  background-position: -672px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_fence_gate {
+  background-image: url(./sprite.png);
+  background-position: -672px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_fence {
+  background-image: url(./sprite.png);
+  background-position: -672px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_leaves {
+  background-image: url(./sprite.png);
+  background-position: -672px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_log {
+  background-image: url(./sprite.png);
+  background-position: -672px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_planks {
+  background-image: url(./sprite.png);
+  background-position: -672px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -672px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_sapling {
+  background-image: url(./sprite.png);
+  background-position: -672px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_sign {
+  background-image: url(./sprite.png);
+  background-position: -672px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_slab {
+  background-image: url(./sprite.png);
+  background-position: -672px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_stairs {
+  background-image: url(./sprite.png);
+  background-position: -672px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_trapdoor {
+  background-image: url(./sprite.png);
+  background-position: -672px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-jungle_wood {
+  background-image: url(./sprite.png);
+  background-position: -672px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-kelp {
+  background-image: url(./sprite.png);
+  background-position: -672px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ladder {
+  background-image: url(./sprite.png);
+  background-position: -672px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lantern {
+  background-image: url(./sprite.png);
+  background-position: -672px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lapis_block {
+  background-image: url(./sprite.png);
+  background-position: -672px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lapis_lazuli {
+  background-image: url(./sprite.png);
+  background-position: -672px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lapis_ore {
+  background-image: url(./sprite.png);
+  background-position: 0px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-large_fern {
+  background-image: url(./sprite.png);
+  background-position: -32px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lava_bucket {
+  background-image: url(./sprite.png);
+  background-position: -64px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lead {
+  background-image: url(./sprite.png);
+  background-position: -96px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-leather_boots {
+  background-image: url(./sprite.png);
+  background-position: -128px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-leather_chestplate {
+  background-image: url(./sprite.png);
+  background-position: -160px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-leather_helmet {
+  background-image: url(./sprite.png);
+  background-position: -192px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-leather_horse_armor {
+  background-image: url(./sprite.png);
+  background-position: -224px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-leather_leggings {
+  background-image: url(./sprite.png);
+  background-position: -256px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-leather {
+  background-image: url(./sprite.png);
+  background-position: -288px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lectern {
+  background-image: url(./sprite.png);
+  background-position: -320px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lever {
+  background-image: url(./sprite.png);
+  background-position: -352px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_banner {
+  background-image: url(./sprite.png);
+  background-position: -384px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_bed {
+  background-image: url(./sprite.png);
+  background-position: -416px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_carpet {
+  background-image: url(./sprite.png);
+  background-position: -448px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -480px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_concrete {
+  background-image: url(./sprite.png);
+  background-position: -512px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_dye {
+  background-image: url(./sprite.png);
+  background-position: -544px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -576px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -608px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -640px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -672px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -704px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_blue_wool {
+  background-image: url(./sprite.png);
+  background-position: 0px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_banner {
+  background-image: url(./sprite.png);
+  background-position: -704px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_bed {
+  background-image: url(./sprite.png);
+  background-position: -704px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_carpet {
+  background-image: url(./sprite.png);
+  background-position: -704px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -704px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_concrete {
+  background-image: url(./sprite.png);
+  background-position: -704px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_dye {
+  background-image: url(./sprite.png);
+  background-position: -704px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -704px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -704px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -704px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -704px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -704px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_gray_wool {
+  background-image: url(./sprite.png);
+  background-position: -704px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-light_weighted_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -704px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lilac {
+  background-image: url(./sprite.png);
+  background-position: -704px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lily_of_the_valley {
+  background-image: url(./sprite.png);
+  background-position: -704px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lily_pad {
+  background-image: url(./sprite.png);
+  background-position: -704px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_banner {
+  background-image: url(./sprite.png);
+  background-position: -704px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_bed {
+  background-image: url(./sprite.png);
+  background-position: -704px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_carpet {
+  background-image: url(./sprite.png);
+  background-position: -704px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -704px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_concrete {
+  background-image: url(./sprite.png);
+  background-position: 0px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_dye {
+  background-image: url(./sprite.png);
+  background-position: -32px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -64px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -96px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -128px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -160px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -192px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lime_wool {
+  background-image: url(./sprite.png);
+  background-position: -224px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lingering_potion {
+  background-image: url(./sprite.png);
+  background-position: -256px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-llama_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -288px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-lodestone {
+  background-image: url(./sprite.png);
+  background-position: -320px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-loom {
+  background-image: url(./sprite.png);
+  background-position: -352px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_banner {
+  background-image: url(./sprite.png);
+  background-position: -384px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_bed {
+  background-image: url(./sprite.png);
+  background-position: -416px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_carpet {
+  background-image: url(./sprite.png);
+  background-position: -448px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -480px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_concrete {
+  background-image: url(./sprite.png);
+  background-position: -512px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_dye {
+  background-image: url(./sprite.png);
+  background-position: -544px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -576px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -608px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -640px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -672px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -704px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magenta_wool {
+  background-image: url(./sprite.png);
+  background-position: -736px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magma_block {
+  background-image: url(./sprite.png);
+  background-position: -736px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magma_cream {
+  background-image: url(./sprite.png);
+  background-position: -736px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-magma_cube_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -736px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-map {
+  background-image: url(./sprite.png);
+  background-position: -736px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-melon_seeds {
+  background-image: url(./sprite.png);
+  background-position: -736px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-melon_slice {
+  background-image: url(./sprite.png);
+  background-position: -736px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-melon {
+  background-image: url(./sprite.png);
+  background-position: -736px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-milk_bucket {
+  background-image: url(./sprite.png);
+  background-position: -736px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-minecart {
+  background-image: url(./sprite.png);
+  background-position: -736px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mojang_banner_pattern {
+  background-image: url(./sprite.png);
+  background-position: -736px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mooshroom_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -736px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mossy_cobblestone_slab {
+  background-image: url(./sprite.png);
+  background-position: -736px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mossy_cobblestone_stairs {
+  background-image: url(./sprite.png);
+  background-position: -736px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mossy_cobblestone_wall {
+  background-image: url(./sprite.png);
+  background-position: -736px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mossy_cobblestone {
+  background-image: url(./sprite.png);
+  background-position: -736px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mossy_stone_brick_slab {
+  background-image: url(./sprite.png);
+  background-position: -736px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mossy_stone_brick_stairs {
+  background-image: url(./sprite.png);
+  background-position: -736px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mossy_stone_brick_wall {
+  background-image: url(./sprite.png);
+  background-position: -736px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mossy_stone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -736px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mule_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -736px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mushroom_stew {
+  background-image: url(./sprite.png);
+  background-position: -736px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_11 {
+  background-image: url(./sprite.png);
+  background-position: -736px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_13 {
+  background-image: url(./sprite.png);
+  background-position: 0px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_blocks {
+  background-image: url(./sprite.png);
+  background-position: -32px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_cat {
+  background-image: url(./sprite.png);
+  background-position: -64px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_chirp {
+  background-image: url(./sprite.png);
+  background-position: -96px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_far {
+  background-image: url(./sprite.png);
+  background-position: -128px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_mall {
+  background-image: url(./sprite.png);
+  background-position: -160px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_mellohi {
+  background-image: url(./sprite.png);
+  background-position: -192px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_pigstep {
+  background-image: url(./sprite.png);
+  background-position: -224px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_stal {
+  background-image: url(./sprite.png);
+  background-position: -256px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_strad {
+  background-image: url(./sprite.png);
+  background-position: -288px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_wait {
+  background-image: url(./sprite.png);
+  background-position: -320px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-music_disc_ward {
+  background-image: url(./sprite.png);
+  background-position: -352px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mutton {
+  background-image: url(./sprite.png);
+  background-position: -384px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-mycelium {
+  background-image: url(./sprite.png);
+  background-position: -416px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-name_tag {
+  background-image: url(./sprite.png);
+  background-position: -448px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nautilus_shell {
+  background-image: url(./sprite.png);
+  background-position: -480px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_brick_fence {
+  background-image: url(./sprite.png);
+  background-position: -512px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_brick_slab {
+  background-image: url(./sprite.png);
+  background-position: -544px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_brick_stairs {
+  background-image: url(./sprite.png);
+  background-position: -576px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_brick_wall {
+  background-image: url(./sprite.png);
+  background-position: -608px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_brick {
+  background-image: url(./sprite.png);
+  background-position: -640px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_bricks {
+  background-image: url(./sprite.png);
+  background-position: -672px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_gold_ore {
+  background-image: url(./sprite.png);
+  background-position: -704px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_quartz_ore {
+  background-image: url(./sprite.png);
+  background-position: -736px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_sprouts {
+  background-image: url(./sprite.png);
+  background-position: -768px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_star {
+  background-image: url(./sprite.png);
+  background-position: -768px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_wart_block {
+  background-image: url(./sprite.png);
+  background-position: -768px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-nether_wart {
+  background-image: url(./sprite.png);
+  background-position: -768px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_axe {
+  background-image: url(./sprite.png);
+  background-position: -768px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_block {
+  background-image: url(./sprite.png);
+  background-position: -768px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_boots {
+  background-image: url(./sprite.png);
+  background-position: -768px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_chestplate {
+  background-image: url(./sprite.png);
+  background-position: -768px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_helmet {
+  background-image: url(./sprite.png);
+  background-position: -768px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_hoe {
+  background-image: url(./sprite.png);
+  background-position: -768px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_ingot {
+  background-image: url(./sprite.png);
+  background-position: -768px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_leggings {
+  background-image: url(./sprite.png);
+  background-position: -768px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_pickaxe {
+  background-image: url(./sprite.png);
+  background-position: -768px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_scrap {
+  background-image: url(./sprite.png);
+  background-position: -768px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_shovel {
+  background-image: url(./sprite.png);
+  background-position: -768px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherite_sword {
+  background-image: url(./sprite.png);
+  background-position: -768px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-netherrack {
+  background-image: url(./sprite.png);
+  background-position: -768px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-note_block {
+  background-image: url(./sprite.png);
+  background-position: -768px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_boat {
+  background-image: url(./sprite.png);
+  background-position: -768px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_button {
+  background-image: url(./sprite.png);
+  background-position: -768px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_door {
+  background-image: url(./sprite.png);
+  background-position: -768px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_fence_gate {
+  background-image: url(./sprite.png);
+  background-position: -768px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_fence {
+  background-image: url(./sprite.png);
+  background-position: -768px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_leaves {
+  background-image: url(./sprite.png);
+  background-position: -768px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_log {
+  background-image: url(./sprite.png);
+  background-position: 0px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_planks {
+  background-image: url(./sprite.png);
+  background-position: -32px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -64px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_sapling {
+  background-image: url(./sprite.png);
+  background-position: -96px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_sign {
+  background-image: url(./sprite.png);
+  background-position: -128px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_slab {
+  background-image: url(./sprite.png);
+  background-position: -160px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_stairs {
+  background-image: url(./sprite.png);
+  background-position: -192px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_trapdoor {
+  background-image: url(./sprite.png);
+  background-position: -224px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oak_wood {
+  background-image: url(./sprite.png);
+  background-position: -256px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-observer {
+  background-image: url(./sprite.png);
+  background-position: -288px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-obsidian {
+  background-image: url(./sprite.png);
+  background-position: -320px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ocelot_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -352px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_banner {
+  background-image: url(./sprite.png);
+  background-position: -384px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_bed {
+  background-image: url(./sprite.png);
+  background-position: -416px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_carpet {
+  background-image: url(./sprite.png);
+  background-position: -448px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -480px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_concrete {
+  background-image: url(./sprite.png);
+  background-position: -512px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_dye {
+  background-image: url(./sprite.png);
+  background-position: -544px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -576px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -608px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -640px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -672px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -704px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_tulip {
+  background-image: url(./sprite.png);
+  background-position: -736px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-orange_wool {
+  background-image: url(./sprite.png);
+  background-position: -768px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-oxeye_daisy {
+  background-image: url(./sprite.png);
+  background-position: -800px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-packed_ice {
+  background-image: url(./sprite.png);
+  background-position: -800px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-painting {
+  background-image: url(./sprite.png);
+  background-position: -800px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-panda_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -800px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-paper {
+  background-image: url(./sprite.png);
+  background-position: -800px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-parrot_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -800px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-peony {
+  background-image: url(./sprite.png);
+  background-position: -800px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-petrified_oak_slab {
+  background-image: url(./sprite.png);
+  background-position: -800px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-phantom_membrane {
+  background-image: url(./sprite.png);
+  background-position: -800px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-phantom_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -800px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pig_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -800px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pillager_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -800px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_banner {
+  background-image: url(./sprite.png);
+  background-position: -800px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_bed {
+  background-image: url(./sprite.png);
+  background-position: -800px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_carpet {
+  background-image: url(./sprite.png);
+  background-position: -800px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -800px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_concrete {
+  background-image: url(./sprite.png);
+  background-position: -800px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_dye {
+  background-image: url(./sprite.png);
+  background-position: -800px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -800px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -800px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -800px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -800px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -800px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_tulip {
+  background-image: url(./sprite.png);
+  background-position: -800px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pink_wool {
+  background-image: url(./sprite.png);
+  background-position: -800px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-piston {
+  background-image: url(./sprite.png);
+  background-position: 0px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-player_head {
+  background-image: url(./sprite.png);
+  background-position: -32px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-podzol {
+  background-image: url(./sprite.png);
+  background-position: -64px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-poisonous_potato {
+  background-image: url(./sprite.png);
+  background-position: -96px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polar_bear_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -128px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_andesite_slab {
+  background-image: url(./sprite.png);
+  background-position: -160px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_andesite_stairs {
+  background-image: url(./sprite.png);
+  background-position: -192px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_andesite {
+  background-image: url(./sprite.png);
+  background-position: -224px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone_brick_slab {
+  background-image: url(./sprite.png);
+  background-position: -256px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone_brick_stairs {
+  background-image: url(./sprite.png);
+  background-position: -288px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone_brick_wall {
+  background-image: url(./sprite.png);
+  background-position: -320px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -352px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone_button {
+  background-image: url(./sprite.png);
+  background-position: -384px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -416px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone_slab {
+  background-image: url(./sprite.png);
+  background-position: -448px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone_stairs {
+  background-image: url(./sprite.png);
+  background-position: -480px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone_wall {
+  background-image: url(./sprite.png);
+  background-position: -512px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_blackstone {
+  background-image: url(./sprite.png);
+  background-position: -544px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_diorite_slab {
+  background-image: url(./sprite.png);
+  background-position: -576px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_diorite_stairs {
+  background-image: url(./sprite.png);
+  background-position: -608px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_diorite {
+  background-image: url(./sprite.png);
+  background-position: -640px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_granite_slab {
+  background-image: url(./sprite.png);
+  background-position: -672px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_granite_stairs {
+  background-image: url(./sprite.png);
+  background-position: -704px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-polished_granite {
+  background-image: url(./sprite.png);
+  background-position: -736px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-popped_chorus_fruit {
+  background-image: url(./sprite.png);
+  background-position: -768px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-poppy {
+  background-image: url(./sprite.png);
+  background-position: -800px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-porkchop {
+  background-image: url(./sprite.png);
+  background-position: -832px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-potato {
+  background-image: url(./sprite.png);
+  background-position: -832px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-potion {
+  background-image: url(./sprite.png);
+  background-position: -832px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-powered_rail {
+  background-image: url(./sprite.png);
+  background-position: -832px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_brick_slab {
+  background-image: url(./sprite.png);
+  background-position: -832px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_brick_stairs {
+  background-image: url(./sprite.png);
+  background-position: -832px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_bricks_slab {
+  background-image: url(./sprite.png);
+  background-position: -832px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_bricks_stairs {
+  background-image: url(./sprite.png);
+  background-position: -832px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_bricks {
+  background-image: url(./sprite.png);
+  background-position: -832px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_crystals {
+  background-image: url(./sprite.png);
+  background-position: -832px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_shard {
+  background-image: url(./sprite.png);
+  background-position: -832px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_slab {
+  background-image: url(./sprite.png);
+  background-position: -832px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_stairs {
+  background-image: url(./sprite.png);
+  background-position: -832px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine_wall {
+  background-image: url(./sprite.png);
+  background-position: -832px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-prismarine {
+  background-image: url(./sprite.png);
+  background-position: -832px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pufferfish_bucket {
+  background-image: url(./sprite.png);
+  background-position: -832px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pufferfish_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -832px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pufferfish {
+  background-image: url(./sprite.png);
+  background-position: -832px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pumpkin_pie {
+  background-image: url(./sprite.png);
+  background-position: -832px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pumpkin_seeds {
+  background-image: url(./sprite.png);
+  background-position: -832px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-pumpkin {
+  background-image: url(./sprite.png);
+  background-position: -832px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_banner {
+  background-image: url(./sprite.png);
+  background-position: -832px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_bed {
+  background-image: url(./sprite.png);
+  background-position: -832px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_carpet {
+  background-image: url(./sprite.png);
+  background-position: -832px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -832px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_concrete {
+  background-image: url(./sprite.png);
+  background-position: -832px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_dye {
+  background-image: url(./sprite.png);
+  background-position: 0px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -32px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -64px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -96px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -128px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -160px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purple_wool {
+  background-image: url(./sprite.png);
+  background-position: -192px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purpur_block {
+  background-image: url(./sprite.png);
+  background-position: -224px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purpur_pillar {
+  background-image: url(./sprite.png);
+  background-position: -256px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purpur_slab {
+  background-image: url(./sprite.png);
+  background-position: -288px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-purpur_stairs {
+  background-image: url(./sprite.png);
+  background-position: -320px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-quartz_block {
+  background-image: url(./sprite.png);
+  background-position: -352px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-quartz_bricks {
+  background-image: url(./sprite.png);
+  background-position: -384px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-quartz_pillar {
+  background-image: url(./sprite.png);
+  background-position: -416px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-quartz_slab {
+  background-image: url(./sprite.png);
+  background-position: -448px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-quartz_stairs {
+  background-image: url(./sprite.png);
+  background-position: -480px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-quartz {
+  background-image: url(./sprite.png);
+  background-position: -512px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-rabbit_foot {
+  background-image: url(./sprite.png);
+  background-position: -544px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-rabbit_hide {
+  background-image: url(./sprite.png);
+  background-position: -576px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-rabbit_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -608px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-rabbit_stew {
+  background-image: url(./sprite.png);
+  background-position: -640px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-rabbit {
+  background-image: url(./sprite.png);
+  background-position: -672px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-rail {
+  background-image: url(./sprite.png);
+  background-position: -704px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-ravager_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -736px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_banner {
+  background-image: url(./sprite.png);
+  background-position: -768px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_bed {
+  background-image: url(./sprite.png);
+  background-position: -800px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_carpet {
+  background-image: url(./sprite.png);
+  background-position: -832px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -864px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_concrete {
+  background-image: url(./sprite.png);
+  background-position: -864px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_dye {
+  background-image: url(./sprite.png);
+  background-position: -864px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -864px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_mushroom_block {
+  background-image: url(./sprite.png);
+  background-position: -864px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_mushroom {
+  background-image: url(./sprite.png);
+  background-position: -864px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_nether_brick_slab {
+  background-image: url(./sprite.png);
+  background-position: -864px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_nether_brick_stairs {
+  background-image: url(./sprite.png);
+  background-position: -864px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_nether_brick_wall {
+  background-image: url(./sprite.png);
+  background-position: -864px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_nether_bricks {
+  background-image: url(./sprite.png);
+  background-position: -864px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_sand {
+  background-image: url(./sprite.png);
+  background-position: -864px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_sandstone_slab {
+  background-image: url(./sprite.png);
+  background-position: -864px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_sandstone_stairs {
+  background-image: url(./sprite.png);
+  background-position: -864px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_sandstone_wall {
+  background-image: url(./sprite.png);
+  background-position: -864px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_sandstone {
+  background-image: url(./sprite.png);
+  background-position: -864px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -864px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -864px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -864px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -864px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_tulip {
+  background-image: url(./sprite.png);
+  background-position: -864px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-red_wool {
+  background-image: url(./sprite.png);
+  background-position: -864px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-redstone_block {
+  background-image: url(./sprite.png);
+  background-position: -864px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-redstone_lamp {
+  background-image: url(./sprite.png);
+  background-position: -864px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-redstone_ore {
+  background-image: url(./sprite.png);
+  background-position: -864px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-redstone_torch {
+  background-image: url(./sprite.png);
+  background-position: -864px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-redstone {
+  background-image: url(./sprite.png);
+  background-position: -864px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-repeater {
+  background-image: url(./sprite.png);
+  background-position: -864px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-repeating_command_block {
+  background-image: url(./sprite.png);
+  background-position: 0px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-respawn_anchor {
+  background-image: url(./sprite.png);
+  background-position: -32px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-rose_bush {
+  background-image: url(./sprite.png);
+  background-position: -64px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-rotten_flesh {
+  background-image: url(./sprite.png);
+  background-position: -96px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-saddle {
+  background-image: url(./sprite.png);
+  background-position: -128px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-salmon_bucket {
+  background-image: url(./sprite.png);
+  background-position: -160px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-salmon_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -192px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-salmon {
+  background-image: url(./sprite.png);
+  background-position: -224px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sand {
+  background-image: url(./sprite.png);
+  background-position: -256px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sandstone_slab {
+  background-image: url(./sprite.png);
+  background-position: -288px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sandstone_stairs {
+  background-image: url(./sprite.png);
+  background-position: -320px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sandstone_wall {
+  background-image: url(./sprite.png);
+  background-position: -352px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sandstone {
+  background-image: url(./sprite.png);
+  background-position: -384px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-scaffolding {
+  background-image: url(./sprite.png);
+  background-position: -416px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-scute {
+  background-image: url(./sprite.png);
+  background-position: -448px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sea_lantern {
+  background-image: url(./sprite.png);
+  background-position: -480px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sea_pickle {
+  background-image: url(./sprite.png);
+  background-position: -512px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-seagrass {
+  background-image: url(./sprite.png);
+  background-position: -544px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-shears {
+  background-image: url(./sprite.png);
+  background-position: -576px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sheep_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -608px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-shield {
+  background-image: url(./sprite.png);
+  background-position: -640px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-shroomlight {
+  background-image: url(./sprite.png);
+  background-position: -672px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -704px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-shulker_shell {
+  background-image: url(./sprite.png);
+  background-position: -736px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-shulker_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -768px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-silverfish_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -800px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-skeleton_horse_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -832px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-skeleton_skull {
+  background-image: url(./sprite.png);
+  background-position: -864px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-skeleton_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -896px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-skull_banner_pattern {
+  background-image: url(./sprite.png);
+  background-position: -896px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-slime_ball {
+  background-image: url(./sprite.png);
+  background-position: -896px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-slime_block {
+  background-image: url(./sprite.png);
+  background-position: -896px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-slime_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -896px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smithing_table {
+  background-image: url(./sprite.png);
+  background-position: -896px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smoker {
+  background-image: url(./sprite.png);
+  background-position: -896px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_quartz_slab {
+  background-image: url(./sprite.png);
+  background-position: -896px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_quartz_stairs {
+  background-image: url(./sprite.png);
+  background-position: -896px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_quartz {
+  background-image: url(./sprite.png);
+  background-position: -896px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_red_sandstone_slab {
+  background-image: url(./sprite.png);
+  background-position: -896px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_red_sandstone_stairs {
+  background-image: url(./sprite.png);
+  background-position: -896px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_red_sandstone {
+  background-image: url(./sprite.png);
+  background-position: -896px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_sandstone_slab {
+  background-image: url(./sprite.png);
+  background-position: -896px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_sandstone_stairs {
+  background-image: url(./sprite.png);
+  background-position: -896px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_sandstone {
+  background-image: url(./sprite.png);
+  background-position: -896px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_stone_slab {
+  background-image: url(./sprite.png);
+  background-position: -896px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-smooth_stone {
+  background-image: url(./sprite.png);
+  background-position: -896px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-snow_block {
+  background-image: url(./sprite.png);
+  background-position: -896px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-snow {
+  background-image: url(./sprite.png);
+  background-position: -896px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-snowball {
+  background-image: url(./sprite.png);
+  background-position: -896px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-soul_campfire {
+  background-image: url(./sprite.png);
+  background-position: -896px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-soul_fire_lantern {
+  background-image: url(./sprite.png);
+  background-position: -896px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-soul_fire_torch {
+  background-image: url(./sprite.png);
+  background-position: -896px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-soul_lantern {
+  background-image: url(./sprite.png);
+  background-position: -896px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-soul_sand {
+  background-image: url(./sprite.png);
+  background-position: -896px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-soul_soil {
+  background-image: url(./sprite.png);
+  background-position: -896px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-soul_torch {
+  background-image: url(./sprite.png);
+  background-position: -896px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spawner {
+  background-image: url(./sprite.png);
+  background-position: 0px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spectral_arrow {
+  background-image: url(./sprite.png);
+  background-position: -32px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spider_eye {
+  background-image: url(./sprite.png);
+  background-position: -64px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spider_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -96px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-splash_potion {
+  background-image: url(./sprite.png);
+  background-position: -128px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sponge {
+  background-image: url(./sprite.png);
+  background-position: -160px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_boat {
+  background-image: url(./sprite.png);
+  background-position: -192px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_button {
+  background-image: url(./sprite.png);
+  background-position: -224px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_door {
+  background-image: url(./sprite.png);
+  background-position: -256px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_fence_gate {
+  background-image: url(./sprite.png);
+  background-position: -288px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_fence {
+  background-image: url(./sprite.png);
+  background-position: -320px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_leaves {
+  background-image: url(./sprite.png);
+  background-position: -352px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_log {
+  background-image: url(./sprite.png);
+  background-position: -384px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_planks {
+  background-image: url(./sprite.png);
+  background-position: -416px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -448px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_sapling {
+  background-image: url(./sprite.png);
+  background-position: -480px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_sign {
+  background-image: url(./sprite.png);
+  background-position: -512px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_slab {
+  background-image: url(./sprite.png);
+  background-position: -544px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_stairs {
+  background-image: url(./sprite.png);
+  background-position: -576px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_trapdoor {
+  background-image: url(./sprite.png);
+  background-position: -608px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-spruce_wood {
+  background-image: url(./sprite.png);
+  background-position: -640px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-squid_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -672px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stick {
+  background-image: url(./sprite.png);
+  background-position: -704px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sticky_piston {
+  background-image: url(./sprite.png);
+  background-position: -736px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_axe {
+  background-image: url(./sprite.png);
+  background-position: -768px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_brick_slab {
+  background-image: url(./sprite.png);
+  background-position: -800px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_brick_stairs {
+  background-image: url(./sprite.png);
+  background-position: -832px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_brick_wall {
+  background-image: url(./sprite.png);
+  background-position: -864px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_bricks {
+  background-image: url(./sprite.png);
+  background-position: -896px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_button {
+  background-image: url(./sprite.png);
+  background-position: -928px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_hoe {
+  background-image: url(./sprite.png);
+  background-position: -928px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_pickaxe {
+  background-image: url(./sprite.png);
+  background-position: -928px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -928px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_shovel {
+  background-image: url(./sprite.png);
+  background-position: -928px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_slab {
+  background-image: url(./sprite.png);
+  background-position: -928px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_stairs {
+  background-image: url(./sprite.png);
+  background-position: -928px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone_sword {
+  background-image: url(./sprite.png);
+  background-position: -928px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stone {
+  background-image: url(./sprite.png);
+  background-position: -928px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stonecutter {
+  background-image: url(./sprite.png);
+  background-position: -928px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stray_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -928px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-strider_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -928px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-string {
+  background-image: url(./sprite.png);
+  background-position: -928px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_acacia_log {
+  background-image: url(./sprite.png);
+  background-position: -928px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_acacia_wood {
+  background-image: url(./sprite.png);
+  background-position: -928px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_birch_log {
+  background-image: url(./sprite.png);
+  background-position: -928px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_birch_wood {
+  background-image: url(./sprite.png);
+  background-position: -928px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_crimson_hyphae {
+  background-image: url(./sprite.png);
+  background-position: -928px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_crimson_stem {
+  background-image: url(./sprite.png);
+  background-position: -928px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_dark_oak_log {
+  background-image: url(./sprite.png);
+  background-position: -928px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_dark_oak_wood {
+  background-image: url(./sprite.png);
+  background-position: -928px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_jungle_log {
+  background-image: url(./sprite.png);
+  background-position: -928px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_jungle_wood {
+  background-image: url(./sprite.png);
+  background-position: -928px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_oak_log {
+  background-image: url(./sprite.png);
+  background-position: -928px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_oak_wood {
+  background-image: url(./sprite.png);
+  background-position: -928px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_spruce_log {
+  background-image: url(./sprite.png);
+  background-position: -928px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_spruce_wood {
+  background-image: url(./sprite.png);
+  background-position: -928px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_warped_hyphae {
+  background-image: url(./sprite.png);
+  background-position: -928px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-stripped_warped_stem {
+  background-image: url(./sprite.png);
+  background-position: -928px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-structure_block {
+  background-image: url(./sprite.png);
+  background-position: 0px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-structure_void {
+  background-image: url(./sprite.png);
+  background-position: -32px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sugar_cane {
+  background-image: url(./sprite.png);
+  background-position: -64px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sugar {
+  background-image: url(./sprite.png);
+  background-position: -96px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sunflower {
+  background-image: url(./sprite.png);
+  background-position: -128px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-suspicious_stew {
+  background-image: url(./sprite.png);
+  background-position: -160px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-sweet_berries {
+  background-image: url(./sprite.png);
+  background-position: -192px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tall_grass {
+  background-image: url(./sprite.png);
+  background-position: -224px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-target {
+  background-image: url(./sprite.png);
+  background-position: -256px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-terracotta {
+  background-image: url(./sprite.png);
+  background-position: -288px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tipped_arrow {
+  background-image: url(./sprite.png);
+  background-position: -320px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tnt_minecart {
+  background-image: url(./sprite.png);
+  background-position: -352px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tnt {
+  background-image: url(./sprite.png);
+  background-position: -384px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-torch {
+  background-image: url(./sprite.png);
+  background-position: -416px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-totem_of_undying {
+  background-image: url(./sprite.png);
+  background-position: -448px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-trader_llama_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -480px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-trapped_chest {
+  background-image: url(./sprite.png);
+  background-position: -512px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-trident {
+  background-image: url(./sprite.png);
+  background-position: -544px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tripwire_hook {
+  background-image: url(./sprite.png);
+  background-position: -576px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tropical_fish_bucket {
+  background-image: url(./sprite.png);
+  background-position: -608px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tropical_fish_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -640px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tropical_fish {
+  background-image: url(./sprite.png);
+  background-position: -672px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tube_coral_block {
+  background-image: url(./sprite.png);
+  background-position: -704px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tube_coral_fan {
+  background-image: url(./sprite.png);
+  background-position: -736px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-tube_coral {
+  background-image: url(./sprite.png);
+  background-position: -768px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-turtle_egg {
+  background-image: url(./sprite.png);
+  background-position: -800px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-turtle_helmet {
+  background-image: url(./sprite.png);
+  background-position: -832px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-turtle_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -864px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-twisting_vines {
+  background-image: url(./sprite.png);
+  background-position: -896px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-vex_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -928px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-villager_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -960px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-vindicator_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -960px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-vine {
+  background-image: url(./sprite.png);
+  background-position: -960px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wandering_trader_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -960px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_button {
+  background-image: url(./sprite.png);
+  background-position: -960px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_door {
+  background-image: url(./sprite.png);
+  background-position: -960px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_fence_gate {
+  background-image: url(./sprite.png);
+  background-position: -960px -192px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_fence {
+  background-image: url(./sprite.png);
+  background-position: -960px -224px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_fungi {
+  background-image: url(./sprite.png);
+  background-position: -960px -256px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_fungus_on_a_stick {
+  background-image: url(./sprite.png);
+  background-position: -960px -288px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_fungus {
+  background-image: url(./sprite.png);
+  background-position: -960px -320px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_hyphae {
+  background-image: url(./sprite.png);
+  background-position: -960px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_nylium {
+  background-image: url(./sprite.png);
+  background-position: -960px -384px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_planks {
+  background-image: url(./sprite.png);
+  background-position: -960px -416px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_pressure_plate {
+  background-image: url(./sprite.png);
+  background-position: -960px -448px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_roots {
+  background-image: url(./sprite.png);
+  background-position: -960px -480px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_sign {
+  background-image: url(./sprite.png);
+  background-position: -960px -512px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_slab {
+  background-image: url(./sprite.png);
+  background-position: -960px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_stairs {
+  background-image: url(./sprite.png);
+  background-position: -960px -576px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_stem {
+  background-image: url(./sprite.png);
+  background-position: -960px -608px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_trapdoor {
+  background-image: url(./sprite.png);
+  background-position: -960px -640px;
+  width: 32px;
+  height: 32px;
+}
+.icon-warped_wart_block {
+  background-image: url(./sprite.png);
+  background-position: -960px -672px;
+  width: 32px;
+  height: 32px;
+}
+.icon-water_bucket {
+  background-image: url(./sprite.png);
+  background-position: -960px -704px;
+  width: 32px;
+  height: 32px;
+}
+.icon-weeping_vines {
+  background-image: url(./sprite.png);
+  background-position: -960px -736px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wet_sponge {
+  background-image: url(./sprite.png);
+  background-position: -960px -768px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wheat_seeds {
+  background-image: url(./sprite.png);
+  background-position: -960px -800px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wheat {
+  background-image: url(./sprite.png);
+  background-position: -960px -832px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_banner {
+  background-image: url(./sprite.png);
+  background-position: -960px -864px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_bed {
+  background-image: url(./sprite.png);
+  background-position: -960px -896px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_carpet {
+  background-image: url(./sprite.png);
+  background-position: -960px -928px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: 0px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_concrete {
+  background-image: url(./sprite.png);
+  background-position: -32px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_dye {
+  background-image: url(./sprite.png);
+  background-position: -64px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -96px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -128px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -160px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -192px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -224px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_tulip {
+  background-image: url(./sprite.png);
+  background-position: -256px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-white_wool {
+  background-image: url(./sprite.png);
+  background-position: -288px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-witch_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -320px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wither_rose {
+  background-image: url(./sprite.png);
+  background-position: -352px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wither_skeleton_skull {
+  background-image: url(./sprite.png);
+  background-position: -384px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wither_skeleton_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -416px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wolf_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -448px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wooden_axe {
+  background-image: url(./sprite.png);
+  background-position: -480px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wooden_hoe {
+  background-image: url(./sprite.png);
+  background-position: -512px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wooden_pickaxe {
+  background-image: url(./sprite.png);
+  background-position: -544px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wooden_shovel {
+  background-image: url(./sprite.png);
+  background-position: -576px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-wooden_sword {
+  background-image: url(./sprite.png);
+  background-position: -608px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-writable_book {
+  background-image: url(./sprite.png);
+  background-position: -640px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-written_book {
+  background-image: url(./sprite.png);
+  background-position: -672px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_banner {
+  background-image: url(./sprite.png);
+  background-position: -704px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_bed {
+  background-image: url(./sprite.png);
+  background-position: -736px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_carpet {
+  background-image: url(./sprite.png);
+  background-position: -768px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_concrete_powder {
+  background-image: url(./sprite.png);
+  background-position: -800px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_concrete {
+  background-image: url(./sprite.png);
+  background-position: -832px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_dye {
+  background-image: url(./sprite.png);
+  background-position: -864px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_glazed_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -896px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_shulker_box {
+  background-image: url(./sprite.png);
+  background-position: -928px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_stained_glass_pane {
+  background-image: url(./sprite.png);
+  background-position: -960px -960px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_stained_glass {
+  background-image: url(./sprite.png);
+  background-position: -992px 0px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_terracotta {
+  background-image: url(./sprite.png);
+  background-position: -992px -32px;
+  width: 32px;
+  height: 32px;
+}
+.icon-yellow_wool {
+  background-image: url(./sprite.png);
+  background-position: -992px -64px;
+  width: 32px;
+  height: 32px;
+}
+.icon-zoglin_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -992px -96px;
+  width: 32px;
+  height: 32px;
+}
+.icon-zombie_head {
+  background-image: url(./sprite.png);
+  background-position: -992px -128px;
+  width: 32px;
+  height: 32px;
+}
+.icon-zombie_horse_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -992px -160px;
+  width: 32px;
+  height: 32px;
+}
+.icon-zombie_pigman_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -224px -544px;
+  width: 32px;
+  height: 32px;
+}
+.icon-zombie_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -544px -352px;
+  width: 32px;
+  height: 32px;
+}
+.icon-zombie_villager_spawn_egg {
+  background-image: url(./sprite.png);
+  background-position: -992px -192px;
+  width: 32px;
+  height: 32px;
+}
