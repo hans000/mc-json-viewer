@@ -5,6 +5,7 @@ import { getWebViewContent, getActivePaths } from './utils';
 import { renderToString } from 'react-dom/server';
 import McTree from './view';
 import TreeProvider from './logic/TreeProvider';
+import React from 'react';
 
 export function activate(context: vscode.ExtensionContext) {
 	const openviewer = vscode.commands.registerCommand('mc-json-viewer.openviewer', () => {
@@ -20,7 +21,6 @@ export function activate(context: vscode.ExtensionContext) {
 					return;
 				}
 				const panel = vscode.window.createWebviewPanel('mc-json-viewer', '预览', vscode.ViewColumn.Beside, { enableScripts: true });
-				// @ts-ignore
 				const newHtml = tpl.replace('{{}}', renderToString(<McTree data={data} lang={JSON.parse(lang)} />));
 				panel.webview.html = newHtml;
 			}

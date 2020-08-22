@@ -3,7 +3,7 @@
   "displayName": "Minecraft Json Viewer",
   "description": "Minecraft Json Viewer",
   "publisher": "hans000",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.45.0"
   },
@@ -26,7 +26,7 @@
       {
         "command": "mc-json-viewer.openviewer",
         "title": "open viewer",
-        "icon": "./src/assets/view.svg"
+        "icon": "./assets/view.svg"
       }
     ],
     "menus": {
