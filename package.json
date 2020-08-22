@@ -1,10 +1,17 @@
 {
   "name": "mc-json-viewer",
-  "displayName": "mc-json-viewer",
-  "description": "json viewer",
-  "version": "0.0.1",
+  "displayName": "Minecraft Json Viewer",
+  "description": "Minecraft Json Viewer",
+  "version": "1.0.1",
   "engines": {
     "vscode": "^1.45.0"
+  },
+  "author": {
+    "name": "hans000",
+    "email": "haima_kc@163.com"
+  },
+  "repository": {
+    "url": ""
   },
   "categories": [
     "Other"
