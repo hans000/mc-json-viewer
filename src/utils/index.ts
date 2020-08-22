@@ -41,9 +41,7 @@ export function cutNamespace(filename: string) {
 
 export function getFileData(filename: string) {
     let parentPath = '';
-    const tmp: any = {
-        frame: 'task'
-    };
+    const tmp: any = {};
     try {
         const data = JSON.parse(fs.readFileSync(filename).toString());
         const { parent, display } = data;
@@ -55,6 +53,8 @@ export function getFileData(filename: string) {
             tmp.frame = display.frame;
             tmp.title = display.title.translate ? display.title.translate : display.title;
             tmp.description = display.description.translate ? display.description.translate : display.description;
+        } else {
+            
         }
     } catch (error) {
         console.log(error);

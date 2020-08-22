@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 
 export interface IMcTreeData {
     title: string;
@@ -12,15 +12,6 @@ interface IProps {
     lang: { [name: string]: string }
 }
 export default function(props: IProps) {
-    const [title, setTitle] = useState('');
-
-    useEffect(() => {
-        window.addEventListener('message', event => {
-            const message = event.data;
-            setTitle(message);
-        });
-    }, []);
-
     function create(data: IMcTreeData[]) {
         return (
             <ul>
@@ -45,7 +36,6 @@ export default function(props: IProps) {
     }
     return (
         <div className='mc-tree'>
-            {title}
             {create(props.data)}
         </div>
     );
