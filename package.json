@@ -3,7 +3,7 @@
   "displayName": "Minecraft Json Viewer",
   "description": "Minecraft Json Viewer",
   "publisher": "hans000",
-  "version": "1.0.4",
+  "version": "1.0.6",
   "engines": {
     "vscode": "^1.45.0"
   },

@@ -26,12 +26,19 @@ export function getActiveDirname(editor: vscode.TextEditor, type: string) {
     const filename = editor.document.fileName;
     const workspacePath = getWorkSpacePath(editor) as string;
     const index = filename.indexOf(type, workspacePath.length);
+    if (index === -1) {
+        return '';
+    }
     const pos = filename.indexOf(path.sep, index + type.length + 1);
     return filename.substring(0, pos);
 }
 
 export function getActivePaths(editor: vscode.TextEditor, type: string) {
-    const pattern = getActiveDirname(editor, type) + '/**/*.json';
+    const dirnames = getActiveDirname(editor, type);
+    if (!dirnames) {
+        return []
+    }
+    const pattern = dirnames + '/**/*.json';
     return glob.sync(pattern);
 }
 

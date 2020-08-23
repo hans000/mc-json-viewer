@@ -14,6 +14,10 @@ export function activate(context: vscode.ExtensionContext) {
 			const editor = vscode.window.activeTextEditor;
 			if (editor) {
 				const paths = getActivePaths(editor, 'advancements');
+				if (!paths.length) {
+					vscode.window.showWarningMessage('当前目录无法生成进度');
+					return;
+				}
 				const treeProvider = new TreeProvider(editor, paths, 'advancements');
 				const data = treeProvider.getData();
 				const panel = vscode.window.createWebviewPanel('mc-json-viewer', '预览', vscode.ViewColumn.Beside, {});
