@@ -1,5 +1,5 @@
 # Minecraft Json Viewer
-Minecraft Json Viewer can preview the opened json file's advancements.
+Minecraft Json Viewer can preview the active json file's advancements.
 
 ## demo
 ![show](./assets/show.gif)

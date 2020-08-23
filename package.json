@@ -15,7 +15,7 @@
     "url": "https://github.com/hans000/mc-json-viewer.git"
   },
   "categories": [
-    "Other"
+    "Visualization"
   ],
   "activationEvents": [
     "onCommand:mc-json-viewer.view"
